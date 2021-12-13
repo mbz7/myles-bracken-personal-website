@@ -26,7 +26,7 @@
     <!-- START OF BODY -->
 
     <!-- HEADER -->
-    <div class="container">
+    <div class="container" id="home">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <!-- LOGO -->
         <div class="d-flex align-items-center justify-content-between">
@@ -41,10 +41,13 @@
         <!-- NAVIGATION LINKS -->
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li>
-            <a href="#about-me" class="nav-link px-2 link-secondary">About Me</a>
+            <a href="#home" class="nav-link px-3 link-secondary">Home</a>
           </li>
-          <li><a href="#" class="nav-link px-2 link-dark">Resources</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li>
+          <li>
+            <a href="#about-me" class="nav-link px-3 link-secondary">About Me</a>
+          </li>
+          <li><a href="#resources" class="nav-link px-3 link-secondary">Resources</a></li>
+          <!-- <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li> -->
         </ul>
       </header>
     </div>
@@ -92,22 +95,23 @@
     <!-- ===============RESOURCES - SECTION================ -->
 
     <!-- Jumbotron -->
-    <div class="mask" style="background-color: rgba(24, 61, 104, 0.815)">
+    <div class="mask" id="resources" style="background-color: rgba(24, 61, 104, 0.815)">
       <div class="container-fluid d-flex align-items-start justify-content-center">
         <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white lh-lg col-8">
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
             <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"></path>
             <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"></path>
           </svg>
-          <h1 class="mb-3 text-uppercase">Resources</h1>
+          <h1 class="mb-3 text-uppercase" id="resources-h1">Resources</h1>
 
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit.</p>
+          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit.</p> -->
 
           <div class="mt-5 d-flex align-items-center justify-content-center flex-wrap p-5 mb-5" style="height: 200px">
             <div class="col-lg-3 mb-5"><h3>Github</h3></div>
             <div class="col-lg-3 mb-5"><h3>Portfolio</h3></div>
             <div class="col-lg-3 mb-5"><h3>LinkedIn</h3></div>
           </div>
+          <div id="resources-js"></div>
         </div>
       </div>
     </div>

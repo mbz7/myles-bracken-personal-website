@@ -7,28 +7,8 @@ function addingEventListener() {
 }
 addingEventListener();
 
-// const h2 = document.createElement('h2');
+// const h2 = document.createElement("h2");
 // h2.textContent = "Thank you for visiting!";
-// document.querySelector('body').appendChild(h2);
+// document.getAnimations("#resources").appendChild(h2);
 
-// function addingEventListeners() {
-//     const inputs = document.getElementById('h2flowers');
-//     function showMyImage() {
-//         flowers.src = "flowers.jpg";
-//         flowers.style.display = 'block';
-
-//     }
-//     inputs.addEventListener('click', showMyImage);
-// }
-// addingEventListeners();
-
-// function addingMoreEventListeners() {
-//     const inputs = document.getElementById('h2flowers');
-//     function showMyImage() {
-//         flowers.src = "flowerscolors.jpg";
-//         flowers.style.display = 'block';
-
-//     }
-//     inputs.addEventListener('mouseout', showMyImage);
-// }
-// addingMoreEventListeners();
+document.getElementById("resources-js").innerHTML = "Thanks for visiting (this text created using js)";

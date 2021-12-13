@@ -47,3 +47,8 @@
 .about-div-2 {
   margin-left: 10px;
 }
+
+.nav-link:hover {
+  color: rgb(23, 53, 88);
+  border-bottom: 1px solid rgb(23, 53, 88);
+}
